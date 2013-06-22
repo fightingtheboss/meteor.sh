@@ -22,6 +22,8 @@ Meteor.sh will try to SSH as root to `APP_HOST`.
 
 If your server happens to be an Amazon EC2 instance, uncomment the `EC2_PEM_FILE` variable and point it to your pem file. Meteor.sh will then do the right things for those instances.
 
+This version of the script also depends on the AWS EC2 Tools being installed locally and available in your PATH.
+
 ### Install the server:
 
 ```
